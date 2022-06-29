@@ -1,0 +1,143 @@
+.small-box{
+    background-color: mediumseagreen;
+    margin-right: 240px;
+    margin-left: 240px;
+}
+.mx-auto {
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+
+}
+.about-1 h1{
+text-align: center;
+color: lightcoral;
+font-weight: bold;
+}
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+}
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 80px,30px;
+    box-shadow: 0 0 9px rgba(0, 0, 0, .6);
+}
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.about-item hr{
+    width: 46px;
+    height: 3px;
+background-color: green;   
+    margin: 0 auto;
+    border: nome;
+}
+.about-item:hover{
+    background-color: lightgreen;
+}
+.about-item:hover i,
+.about-item h3,
+.about-item:hover p{
+    color:green
+}
+.about-item:hover hr{
+    background-color: #fff;
+}
+.about-item:hover i{
+    transform: translateX(-20px);
+}
+.about-item:hover i,
+.about-item h3,
+.about-item:hover p {
+    transition: all 400ms ease-in-out;
+}
+footer{
+    background: #46855b;
+    padding:20px
+}
+footer p{
+    color:rgb(0, 4, 0)
+}
+
+<!---dfs
+body{
+
+    background-color: #F9A826;
+}
+
+.rows{
+
+    height: 100vh;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    min-height: calc(1.5em + .75rem + 2px);
+    padding: .575rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 52px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.card{
+
+    padding: 20px;
+    background-color: #eee;
+        padding-bottom: 50px;
+    padding-top: 50px;
+ 
+}
+
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f9a826;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.border-rad{
+
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+
+    color: #fff;
+    background-color: #f9a826;
+    border-color: #f9a826;
+}
+
+
+
+
+.border-rad:hover{
+   
+     background-color: #f9a826;
+    border-color: #f9a826;
+
+}

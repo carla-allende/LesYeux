@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les Yeux</title>
+    <link
+        rel="icon"
+        href="img/lotion.png"
+       />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <!-- CSS only -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+       rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+        crossorigin="anonymous"
+    />
+      
+  </head>
+  <body>
+    <!--Navbar!-->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/eye.png"
+            alt="logo"
+            width="45px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="https://www.glossier.com/category/makeup" target="_blank">Makeup</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.glossier.com/category/skincare" target="_blank">Skincare</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.glossier.com/category/body" target="_blank">Hair & Body</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.glossier.com/category/sets" target="_blank">Other Supplies & Tools</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="https://www.glossier.com/picks/best-sellers-page" target="_blank">BEST SELLERS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link abled" href="https://www.glossier.com/" target="_blank">DISCOUNT SHOP</a>
+              <!---<a href="https://www.glossier.com/" target="_BLANK">Link</a>-->  
+            </li>
+            <!--LOG IN-->
+            <li class="nav-item">
+              <!-- Button trigger modal -->
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Sign In
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">LOGIN</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Already have an Account? Click here!</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+              <!-- <a class="nav-link disabled" href="#"></a>
+              <img
+              src="C:\Users\carli\OneDrive\Documents\Curso HTML\img\account.png"
+              alt="logo"
+              width="30px"
+            /> -->
+            </li>
+          </ul>
+          
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Title-->
+    <h1 class="text-center">Les Yeux</h1>
+    <div class="Container">
+      <div class="small-box green-box mx-auto text-center">
+        Handmade products for many types of skins
+      </div>
+    </div>
+<!---CARDBOARDS-->
+<div class="Title text-center py-5">
+  <h1>Favourites of the month:</h1>
+</div>
+  <div class="row mx-5">
+    <!---tarjeta 1-->
+    <div class="col">
+      <div class="card" style="width:18rem;">
+          <img src="img/set-balm-trio-2-portrait.webp" class="card-img-top" alt="imagen de tarjeta">
+              <div class="card=body">
+                  <h1>Balm Dotcom Trio    </h1>
+                  <p class="card-text">A tube for every mood. What it is: A customizable three-pack of our cult-favorite skin salve in your choice of flavors (or Original, with none)
+                    WHY IT'S SPECIAL:
+                    Choose three from Original (which doubles as a skin salve) or other flavored formulas (Mint and Coconut go on clear, while the others give a sheer tint)
+                    Formulated with natures heavy duty moisturizers—Castor Oil, Beeswax, and Lanolin—with a dense, waxy texture that stays in place to seal in moisture
+                    Read More
+                  </p>
+                  <a href="#"class="btn btn-primary"><Link> $40</Link></a>
+              </div>
+      </div>
+    </div>
+    <!---tarjeta 2--> 
+    <div class="col">
+      <div class="card" style="width:18rem;">
+          <img src="img/AfterBaume_PDP_.jpg" class="card-img-top" alt="imagen de tarjeta">
+              <div class="card=body">
+                  <h1>After Baume</h1>
+                  <p class="card-text">moisture barrier recovery cream • 1.6 fl oz / 50ml • A puffer jacket for your skin.
+                  What it is: A moisture barrier recovery cream for very dry and/or sensitive skin, especially after exposure to cold weather, harsh sun, mask wearing, acne treatments, over-exuberant exfoliation, and more.
+                    WHY IT'S SPECIAL:
+                    After skin is exposed to harsh environments, or if its sensitive on its own, it needs proper nourishment to bring it back from the brink. After Baume has been awarded the National Eczema Association Seal of Acceptance™, is vegan, non-comedogenic, and formulated without fragrance, essential oils, dyes, or drying alcohols
+                    The cocooning cream moisturizes for up to 24 hours, and gives you a lasting dewy finish. Read More
+                  </p>
+                  <a href="#"class="btn btn-primary"><Link>$28</Link></a>
+              </div>
+      </div>
+    </div> 
+    <!---tarjeta 3-->
+    <div class="col">
+      <div class="card" style="width:18rem;">
+          <img src="img/5-Mint_01.jpg" class="card-img-top" alt="imagen de tarjeta">
+              <div class="card=body">
+                  <h1>Balm Dotcom</h1>
+                  <p class="card-text">Our cult-favorite, do-everything lip balm.What it is: A hydrating lip balm packed with antioxidants and natural emollients to nourish dry, chafed skin—in original or other fun flavors
+                    WHY IT'S SPECIAL:
+                    Choose from Original (which doubles as a skin salve) or other flavored formulas (Mint and Coconut go on clear, while the others—including Lavender, our latest flavor!—give a sheer tint)
+                    Formulated with natures heavy-duty moisturizers: Castor Oil, Beeswax, and Lanolin
+                    Read More
+                  </p>
+                  <a href="#"class="btn btn-primary"><Link>$12</Link></a>
+              </div>
+      </div>
+    </div> 
+  </div>
+  
+
+    <!--About Us-->
+    <section id="about">
+      <div class="about-1">
+        <h3>ABOUT US</h3>
+        <p>
+          We are a brand who really cares about skin products that will benefit
+          your dermis, we triying years and years to make a product VEGAN and
+          sulfate free.We offer you the best environment for you skin! X
+        </p>
+      </div>
+      <div id="About-2">
+        <div class="content-box-lg">
+          <div class="containter">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="about-item text-center">
+                  <i class="fa fa-book"></i>
+                  <!-- <a class="icon" href="#"> -->
+                    <img
+                      src="img/eco-friendly.png"
+                      alt="logo"
+                      width="45px"
+                    />
+                  <!-- </a> -->
+                  <h3>WHAT WE CARE ABOUT</h3>
+                  <hr />
+                  <p>
+                   We care of the planet, the contamination of tons of plastic bottles, we making a reciclabe made of cardboard. And we prepare our products into bottles who are refillable, so no contamination needed!
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="about-item text-center">
+                  <i class="fa fa-book"></i>
+                  <img
+                  src="img/4337569.png"
+                  alt="logo"
+                  width="45px"
+                  />
+                  <h3>OUR COMMITMENT</h3>
+                  <hr />
+                  <p>
+                    Our brand doesnt justify the animal abuse into cosmetics, so we are a Pet-Friendly. NO ANIMALS HARMED IN THE MAKING OF THIS PRODUCT.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="about-item text-center">
+                  <i class="fa fa-book"></i>
+                  <img
+                  src="img/4337671.png"
+                  alt="logo"
+                  width="45px"
+                  />
+                  <h3>OUR VEGAN POLICIES</h3>
+                  <hr />
+                  <p>
+                    No just only we don't allow testing in animals,we do not make any products of animal origin because of our policies, we don't enable bad treatmeants!PLANT-BASED PRODUCTS.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+<!---Newsletter--><div class="row d-flex justify-content-center align-items-center rows">
+
+            <div class="col-md-6">
+
+
+              <div class="card">
+
+
+                  <div class="text-center">
+
+                      <img src="https://i.imgur.com/Dh7U4bp.png" width="200">
+                      <span class="d-block mt-3">Subscribe to our newsletter in order not to miss new arrivals <br> promotions and discounts of our store</span>
+
+                      <div class="mx-5">
+
+
+                         <div class="input-group mb-3 mt-4">
+                            <input type="text" class="form-control" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-success border-rad" type="button" id="button-addon2">Subscribe</button>
+                          </div>
+                          
+
+                      </div>
+                      
+                  </div>
+                  
+              </div>
+              
+          </div>
+
+
+
+          
+      </div>
+
+    <!--Footer-->
+    <footer class="text-center">
+      <p>Copyright &copy; 2022 All rights reserved by Carla Allende.</p>
+    </footer>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+  crossorigin="anonymous"
+></script>
+  </body>
+</html>
